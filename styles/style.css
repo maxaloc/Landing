@@ -1,0 +1,321 @@
+body{
+	margin: 0;
+	background-color: #1E254E;
+	font-family: 'Open Sans';
+}
+
+header {
+  padding: 10px;
+  overflow: hidden;
+}
+
+header > .logo {
+  float: left;
+  margin: 0px 0px 0px 5%;
+  padding: 0;
+  width: 150px;
+}
+
+header > .logo > img{
+	width: 100%;
+}
+
+header ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  color: white;
+  display: block;
+  padding: 1.2em 2.3em;
+  text-decoration: none;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: 600;
+	color: #3F99D7;
+}
+
+h1{
+	color: #FFFFFF;
+}
+
+.container{
+	margin: 0px 5% 0px 5%;
+}
+
+.text{
+	margin-top: 150px;
+	width: 500px;
+}
+
+.text > button{
+	background-color: #3F99D7;
+	text-decoration: none;
+	border: none;
+	border-radius: 10px;
+	width: 240px;
+	height: 60px;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.text > h1{
+	font-size: 40px;
+}
+
+.menu{
+	position: fixed;
+}
+
+.menu > nav > ul > li{
+	display: inline-block;
+	padding: 0px 100px 0px 0px;
+}
+
+.menu > nav > ul > li > a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.black{
+	position: absolute;
+	top: 750px;
+	background-color: #1E254E;
+	left: 0;
+	width: 100%;
+	height: 220px;
+	transform: skewY(-8deg);
+}
+
+.degrade{
+	z-index: -100;
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	right: 0;
+	top: 50px;
+	background-image: url('../img/degrade.png');
+	background-size: cover;
+}
+
+.iphone-1 > img{
+	width: 100%;
+}
+
+.iphone-1{
+	width: 400px;
+	float: right;
+}
+
+.text, .iphone-1{
+	display: inline-block;
+}
+
+.container-2{
+	z-index: 99;
+	margin: 0px 0px 0px 5%;
+	position: relative;
+	margin-top: 400px;
+	text-align: center;
+	background-size: cover;
+}
+
+.container-3{
+	text-align: center;
+	z-index: -1;
+	height: 700px;
+	margin-top: 50px;
+	background-image: url("../img/degrade-2.png");
+	background-size: cover;
+}
+
+.text-2{
+	margin: 0px 27% 0px 22%;
+	text-align: center;
+}
+
+.text-2 > p{
+	margin-top: 60px;
+	font-size: 16px;
+	text-align: left;
+	color: #C2CBE9;
+	line-height: 30px;
+}
+
+.text-2 > h1{
+	font-size: 40px;
+	margin: auto;
+}
+
+.iphone-2{
+	pointer-events: none;
+	position: relative;
+	text-align: center;
+	margin-left: 205px;
+	width: 300px;
+}
+
+.iphone-2 > img{
+	width: 100%;
+	z-index: -1;
+}
+
+.ui-draggable{
+	position: absolute;
+	right: -9.5%;
+	z-index: 0;
+	margin-top: 122px;
+	width: 1800px;
+	height: 400px;
+}
+
+.tabName{
+	width: 15.5%;
+}
+
+.drag{
+	z-index: 0;
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.container-4{
+	background-color: white;
+	padding-bottom: 50px;
+}
+
+.text-3{
+	padding-top: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.text-3 > h1{
+	width: 400px;
+	margin: auto;
+	color: #1E254E;
+}
+
+h3{
+	color: #ACACAC;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.help-text > div > p{
+	color: #1E254E;
+}
+
+.phone{
+	width: 15%;
+}
+
+.phone > img{
+	width: 100%;
+}
+
+.help {
+	position: relative;
+	width: 800px;
+	margin-left: -100px;
+	margin-top: 70px;
+	height: 540px;
+}
+
+.description {
+	color: #C2CBE9;
+	font-size: 19px;
+}
+
+.help, .help-text{
+	display: inline-block;
+}
+
+.help-text > .yes > h3{
+	color: #3F99D7;
+	transition-duration: 1s;
+}
+
+.help-text{
+	top: -50px;
+	position: relative;
+	width: 400px;
+	left: 5%;
+}
+
+.help-3{
+	position: relative;
+}
+
+.help-1{
+	position: relative;
+}
+
+.help-2{
+	position: relative;
+}
+
+.help > div > img{
+	position: absolute;
+	width: 100%;
+}
+
+.container-5{
+	position: relative;
+}
+
+.line{
+	position: absolute;
+	width: 2px;
+	height: 800px;
+	background-color: white;
+	margin-left: 15%;
+	margin-top: -100px;
+}
+
+.text-4{
+	width: 50%;
+	text-align: center;
+	margin: 100px auto auto auto;
+}
+
+.trait{
+	width: 100px;
+	height: 2px;
+	background-color: white;
+	margin: auto;
+}
+
+.disease{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.left-text, .right-text{
+	display: inline-block;
+}
+
+.left-text, .right-text{
+	width: 38%;
+	text-align: left;
+	color: white;
+}
+
+.right-text{
+	float: right;
+}
