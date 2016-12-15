@@ -1,5 +1,30 @@
+var Tone = require('tone');
+var synth = new Tone.Synth().toMaster();
+
+var namer = require('color-namer');
 var maxMenuWidth = -1510;
 var minMenuWidth = -2920;
+
+
+for (var i = 0; i < 10; i++) {
+  var n = "8n";
+  var r = Math.floor(Math.random() * (255 - 0));
+  var g = Math.floor(Math.random() * (255 - 0));
+  var b = Math.floor(Math.random() * (255 - 0));
+  var color = 'rgb('+r+','+g+','+b+')';
+  var parent = document.getElementById('colors');
+  var frequency =   Math.round(120+(r+g*16+b*256)/100);
+
+  var element = document.createElement('div');
+  element.className = 'color';
+  element.style.background = color;
+  parent.appendChild(element);
+  element.frequency = frequency;
+
+  element.addEventListener('click', function(frequency){
+      synth.triggerAttackRelease(this.frequency, "8n" );
+  })
+}
 
 $('.tabName').each(function() {
   var menuWidth = $(this).outerWidth();
