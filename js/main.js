@@ -1,3 +1,5 @@
+// TAP FUNCTION
+
 var Tone = require('tone');
 var synth = new Tone.Synth().toMaster();
 var namer = require('color-namer');
@@ -25,6 +27,8 @@ for (var i = 0; i < 10; i++) {
       synth.triggerAttackRelease(this.frequency, "8n" );
   })
 }
+
+// DRAGABLE PHONE FUNCTION
 
 $('.tabName').each(function() {
   var menuWidth = $(this).outerWidth();
@@ -54,6 +58,8 @@ $.fn.nextOrFirst = function(selector) {
     var next = this.next(selector);
     return (next.length) ? next : this.prevAll(selector).last();
 }
+
+// SLIDER FUNCTION
 
   $(function() {
     $('.help div:eq(0)').addClass("active");
