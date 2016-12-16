@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<!-- HEADER -->
+
 <header class="pattern-1">
     <div class="logo">
         <img src="img/logo.png" alt="">
@@ -18,41 +20,48 @@
             <li><a href="#">Home</a></li>
             <li><a href="#app">L'application</a></li>
             <li><a href="#achromatopsie">L'achromatopsie</a></li>
-            <li><a href="contact">Apprentissage</a></li>
+            <li><a href="#colors">Apprentissage</a></li>
         </ul>
     </nav>
 </header>
 
+<div class="loader">
+        <img src="img/logo.png" alt="">
+</div>
+
+<!-- CONTAINER 1 - DOWNLOAD -->
+
 <div class="container">
-		<div class="resp-iphone">
-			<div class="iphone-1">
-				<img src="img/iphone-1.png" alt="">
-			</div>
+	<div class="resp-iphone">
+		<div class="iphone-1">
+			<img src="img/iphone-1.png" alt="">
 		</div>
+	</div>
 
-		<div class="text">
-			<h2>Tone</h2>
-			<h1>Enfin une solution pour percevoir les couleurs autrement</h1>
-			<button>Télécharger l'application</button>
-		</div>
+	<div class="text">
+		<h2>Tone</h2>
+		<h1>Enfin une solution pour percevoir les couleurs autrement</h1>
+		<button>Télécharger l'application</button>
+	</div>
 
-		<div class="degrade"></div>
+	<div class="degrade"></div>
 </div>
 
 <div class="black"></div>
 
-<div class="container-2">
+<!-- CONTAINER 2  -->
 
+<div class="container-2" id="app">
     <div class="TextAuto text-2">
         <h2>Une solution dans la poche</h2>
-        <h1>Lorem Ipsum je sais pas quoi mettre mdr jpp</h1>
+        <h1>Une application utile pour chaque instant</h1>
         <p>Tone a pour but d’aider les personnes atteintes d’achromatopsie à imaginer les couleurs et pouvoir les identifier grâce à un son. Pour cela il leur suffit de prendre une photo depuis l’application, ou de l’upload depuis sa bibliothèque, une fois que c’est fait vous pourrez lire votre photo, puis une mélodie sera jouée, elle correspondra aux couleurs dominantes présentent dans la photo. Vous pourrez aussi toucher une zone de la photo si vous voulez seulement écouter une couleur en particulier.</p>
     </div>
-
 </div>
 
-<div class="container-3">
+<!-- CONTAINER 3 - DRAGABLE PHONE -->
 
+<div class="container-3">
     <div class="drag">
         <div id="TabLabels" class="ui-draggable">
             <img class="tabName" src="img/img-1.png" alt="">
@@ -67,13 +76,13 @@
     <div class="iphone-2">
         <img src="img/iphone-2.png" alt="">
     </div>
-
 </div>
 
-<div class="container-4">
+<!-- CONTAINER 4 - SLIDER -->
 
+<div class="container-4">
     <div class="TextAuto text-3">
-        <h2>Un outil pour tout les jours</h2>
+        <h2>Un outil pour tous les jours</h2>
         <h1>Tone vous aide au quotidien à vous repérer</h1>
     </div>
 
@@ -86,23 +95,24 @@
     <div class="help-text">
         <div class="help-1">
             <h3>Vêtements</h3>
-            <p class="description">Vous pourrez maintenant choisir vos vêtements, parce que votre tenue sonne bien.</p>
+            <p class="description">Vous ne vous habillerez plus de la même façon, soyez en accord avec ce que vous portez. </p>
         </div>
 
         <div class="help-2">
             <h3>Paysage</h3>
-            <p class="description">Vous regardez un beau paysage en face de vous ? Écoutez le, vous verrez c’est mieux.</p>
+            <p class="description">Regardez la nature d’une tout autre manière et profitez de la vue que vous avez devant vous.</p>
         </div>
 
-        <div class="help-3">
+        <div class="help-3" id="achromatopsie">
             <h3>Oeuvres D'art</h3>
-            <p class="description">Vous pourrez maintenant choisir vos vêtements, parce que votre tenue sonne bien.</p>
+            <p class="description">Ressentez le travail de l’artiste d’un autre point de vue et apportez un regard nouveau aux oeuvres d’arts.</p>
         </div>
     </div>
-
 </div>
 
-<div class="container-5" id="achromatopsie">
+<!-- CONTAINER 5 - DISEASE -->
+
+<div class="container-5">
     <div class="line"></div>
     <div class="text-4">
         <h2>Une pathologie rare</h2>
@@ -120,12 +130,16 @@
     </div>
 </div>
 
+<!-- COLORS - TAP -->
+
 <div class="TextAuto text-5">
         <h2>Test</h2>
         <h1>Testez les sons pour apprendre à différencier les couleurs</h1>
 </div>
 
 <div id="colors"></div>
+
+<!-- FOOTER -->
 
 <footer>
     <div class="FooterLogo">
