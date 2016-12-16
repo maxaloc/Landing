@@ -14,6 +14,10 @@
     padding: -1em 2.3em;
   }
 
+  .left-text, .right-text{
+    width: 100%;
+  }
+
 
 }
 
@@ -57,19 +61,10 @@
     width: 250px;
   }
 
-  .text > h1{
+  .text > h1, .text-2 > h1, .text-3 > h1, .text-4 > h1, .text-5 > h1{
   font-size: 25px;
-  }
-
-  .text-2 > h1{
-    width: 300px;
-    font-size: 25px;
-    margin-left: 0;
-  }
-
-  .text-3 > h1{
-    width: 300px;
-    font-size: 25px;
+  width: 100%;
+  text-align: center;
   }
 
   .text > button{
@@ -78,6 +73,11 @@
 
   .help-text{
     margin-left: 10%;
+  }
+
+  .left-text, .right-text{
+    display: block;
+    width: 100%;
   }
 
 }
@@ -124,6 +124,10 @@
     text-align: center;
     }
 
+    .text-5{
+      width: 80%;
+    }
+
     .text-2 > h1{
       margin: auto;
     }
@@ -136,6 +140,19 @@
     width: 300px;
     height: 250px;
     margin: 50px 0px 0px 0px;
+    }
+
+    .line{
+      display: none;
+    }
+
+    .disease{
+      margin: 10% 0% 0% 10%;
+      width: 85%;
+    }
+
+    .color{
+      padding: 20px 20px 0 20px;
     }
 }
 

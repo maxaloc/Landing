@@ -1,7 +1,7 @@
 var Tone = require('tone');
 var synth = new Tone.Synth().toMaster();
-
 var namer = require('color-namer');
+
 var maxMenuWidth = -1510;
 var minMenuWidth = -2920;
 
