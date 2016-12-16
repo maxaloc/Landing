@@ -12,25 +12,6 @@
 
 			/*BODY*/
 
-			/*LOADER*/
-
-.loader {
-
-position : fixed;
-z-index: 9999;
-background-color : #1E254E;
-top : 0px;
-left : 0px;
-height : 100%;
-width : 100%;
-text-align: center;
-}
-
-.loader > img {
-	width: 10%;
-	margin-top: 20%;
-}
-
 body {
 	margin: 0;
 	background-color: #1E254E;

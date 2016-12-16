@@ -1,11 +1,3 @@
-// LOADER
-
-$( document ).ready(function() {
-
-  $(".loader").fadeOut("1000");
-
-});
-
 // TAP FUNCTION
 
 var Tone = require('tone');
